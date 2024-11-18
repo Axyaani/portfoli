@@ -1,0 +1,298 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+position: fixed;
+width: 100%;
+
+  
+}
+.header ul{
+  display: flex;
+
+
+}
+.header ul li{
+  margin-top: 15px;
+  /* margin-left: 30px; */
+ /* padding: 25px; */
+ list-style: none;
+ color: black;
+ margin-right: 50px;
+
+}
+.header ul li a{
+
+  text-decoration: none;
+  color: black;
+  margin-left: 1px;
+  padding: 5px;
+  font-size: 18px;
+
+}
+.header i{
+  /* margin-top: 20px;
+  margin-left: 10%; */
+  color: black;
+
+}
+.header .btn{
+  /* margin-left: 20px;
+  margin-right: 23%; */
+  margin-top: 10px;
+  color: black;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+   padding-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+
+  
+}
+.header h2{
+ margin-left: 40px;
+
+  margin-top: 10px;
+ font-size: 30px;
+  color: black;
+  
+}
+.hero{
+ 
+background-color: white;
+height: 500px;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+gap: 90px;
+
+}
+.hero .left{
+  color: black;
+  margin-left: 30px;
+  
+}
+.hero .left h2{
+  font-size: 50px;
+}
+.hero .left p{
+  text-align: justify;
+  padding: 10px;
+
+}
+.hero .right img{
+   width: 500px;
+   margin-right: 80px;
+}
+.hero .left i{
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+.hero .left  span{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.hero .left .icon{
+  margin-top: 30px;
+  color: black;
+}
+.hero .left .ico{
+  margin-top: 30px;
+  color: black;
+
+}
+.about{
+
+  background-color:white;
+  height: 500px;
+  justify-content: space-between;
+  display: flex;
+}
+.about .left img{
+  margin-top: 100px;
+  margin-left: 100px;
+height: 390px;
+width: 400px;
+
+
+}
+.about .right {
+  padding: 50px;
+  margin-bottom: 5%;
+}
+.about .right a {
+  /* margin-right:500px; */
+  margin-top: 30px;
+  border-radius: 20px;
+  padding:10px 30px;
+  color: black;
+  text-decoration: none;
+  background-color:#ebeef6b5 ;
+margin-left: 20%;}
+.about .right p{
+  margin-top: 20px;
+  color: black;
+  margin-left: 20%;
+text-align: justify;
+
+
+}
+.about .right h2{
+  margin-top: 20px;
+  color: black;
+  margin-left: 20%;
+
+}
+.skills{
+  background-color: white;
+  height: 420px;
+  padding: 70px;
+
+}
+.skills .abt{
+
+    border-radius: 20px;
+    padding:10px 20px;
+    color: black;
+    text-decoration: none;
+    background-color:#ebeef6 ;
+    height: 40px;
+    margin-left: 45%;
+ 
+}
+.skills .p{
+  color: black;
+  margin-top: 40px;
+  margin-left: 38%;
+  
+  
+}
+.skills .imgs img {
+  color: black;
+  padding: 20px;
+  gap: 30px;
+  height: 110px;
+  padding-top: 10px;
+
+
+}
+.expr{
+  background-color:white;
+  height: 990px;
+  display: block;
+  padding-bottom: 90px;
+  padding: 30px;
+  justify-content: space-between;
+
+
+}
+.expr .com{
+display: flex;
+  margin-top: 10px;
+  height: 270px;
+  width: 85%;
+  color: black;
+  background-color:rgba(255, 255, 255, 0.801);
+  margin-top: 20px;
+  /* margin-right: 50px; */
+  margin-left: 100px;
+  padding: 40px;
+  border: 1px solid white;
+  border-radius:10px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.expr .com ul{
+  margin-top: 10px;
+  color: black;
+  margin-left: 300px;
+  justify-content: end;
+  padding: 10px;
+  
+}
+.expr .com ul h4{
+  color: black;
+  font-size: 32px
+  
+}
+.expr .com .ig{
+  width: 350px;
+}
+.expr .abt1{
+  margin-top: 80px;
+  
+  border-radius: 20px;
+  padding:10px 20px;
+  color: black;
+  text-decoration: none;
+  background-color:#ebeef6b5 ;
+  height: 40px;
+  margin-left: 45%;
+ 
+
+}
+.expr .p{
+  color: white;
+  margin-top: 30px;
+  margin-left: 38%;
+  
+  
+}
+
+.footer{
+  height: 700px;
+  background-color: white;
+  display: flex;
+ 
+}
+.footer .left{
+  background-color:white;
+  margin-top: 40px;
+  height: 600px;
+  padding: 50px;
+  margin-left: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+ 
+}
+.footer .left img{
+  width: 800px;
+  border-radius: 10px;
+
+}
+.footer .right{
+  margin-top: 40px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+  margin-right: 50px;
+  padding: 50px;
+  height: 600px;
+  background-color:white ;
+  color: black;
+
+}
+.footer .right h1{
+  color: black;
+}
+.footer .right p{
+  color: black;
+}
+.footer .right button{
+  margin-top: 40px;
+  border-radius: 20px;
+  padding:10px 20px;
+  color: black;
+  text-decoration: none;
+  background-color:#E6E8EA ;
+  height: 40px;
+
+}

@@ -1,0 +1,290 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+
+  
+}
+.header ul{
+  display: flex;
+
+
+}
+.header ul li{
+  margin-top: 15px;
+  /* margin-left: 30px; */
+ /* padding: 25px; */
+ list-style: none;
+ color: white;
+ margin-right: 50px;
+
+}
+.header ul li a{
+
+  text-decoration: none;
+  color: white;
+  margin-left: 1px;
+  padding: 5px;
+  font-size: 18px;
+
+}
+.header i{
+  /* margin-top: 20px;
+  margin-left: 10%; */
+  color: white;
+
+}
+.header .btn{
+  /* margin-left: 20px;
+  margin-right: 23%; */
+  margin-top: 10px;
+  color: black;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+   padding-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+
+  
+}
+.header h2{
+ margin-left: 40px;
+
+  margin-top: 10px;
+ font-size: 30px;
+  color: white;
+  
+}
+.hero{
+ 
+background-color: black;
+height: 500px;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+gap: 90px;
+
+}
+.hero .left{
+  color: white;
+  margin-left: 30px;
+  
+}
+.hero .left h2{
+  font-size: 50px;
+}
+.hero .left p{
+  text-align: justify;
+  padding: 10px;
+
+}
+.hero .right img{
+   width: 500px;
+   margin-right: 80px;
+}
+.hero .left i{
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+.hero .left  span{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.hero .left .icon{
+  margin-top: 30px;
+}
+.hero .left .ico{
+  margin-top: 30px;
+}
+.about{
+
+  background-color:#111827;
+  height: 500px;
+  justify-content: space-between;
+  display: flex;
+}
+.about .left img{
+  margin-top: 100px;
+  margin-left: 100px;
+height: 390px;
+width: 400px;
+
+
+}
+.about .right {
+  padding: 50px;
+  margin-bottom: 5%;
+}
+.about .right a {
+  /* margin-right:500px; */
+  margin-top: 30px;
+  border-radius: 20px;
+  padding:10px 30px;
+  color: white;
+  text-decoration: none;
+  background-color:#ebeef6b5 ;
+margin-left: 20%;}
+.about .right p{
+  margin-top: 20px;
+  color: white;
+  margin-left: 20%;
+text-align: justify;
+
+
+}
+.about .right h2{
+  margin-top: 20px;
+  color: rgba(227, 194, 194, 0.466);
+  margin-left: 20%;
+
+}
+.skills{
+  background-color: black;
+  height: 420px;
+  padding: 70px;
+
+}
+.skills .abt{
+
+    border-radius: 20px;
+    padding:10px 20px;
+    color: white;
+    text-decoration: none;
+    background-color:#ebeef6b5 ;
+    height: 40px;
+    margin-left: 45%;
+ 
+}
+.skills .p{
+  color: white;
+  margin-top: 40px;
+  margin-left: 38%;
+  
+  
+}
+.skills .imgs img {
+  color: white;
+  padding: 20px;
+  gap: 30px;
+  height: 110px;
+  padding-top: 10px;
+
+
+}
+.expr{
+  background-color:#111827;
+  height: 990px;
+  display: block;
+  padding-bottom: 90px;
+  padding: 30px;
+  justify-content: space-between;
+
+
+}
+.expr .com{
+display: flex;
+  margin-top: 10px;
+  height: 270px;
+  width: 85%;
+  color: white;
+  background-color:#1F2937;
+  margin-top: 20px;
+  /* margin-right: 50px; */
+  margin-left: 100px;
+  padding: 40px;
+}
+
+.expr .com ul{
+  margin-top: 10px;
+  color: white;
+  margin-left: 300px;
+  justify-content: end;
+  padding: 10px;
+  
+}
+.expr .com ul h4{
+  color: white;
+  font-size: 32px
+  
+}
+.expr .com .ig{
+  width: 350px;
+}
+.expr .abt1{
+  margin-top: 80px;
+  
+  border-radius: 20px;
+  padding:10px 20px;
+  color: white;
+  text-decoration: none;
+  background-color:#ebeef6b5 ;
+  height: 40px;
+  margin-left: 45%;
+ 
+
+}
+.expr .p{
+  color: white;
+  margin-top: 30px;
+  margin-left: 38%;
+  
+  
+}
+
+.footer{
+  height: 700px;
+  background-color: black;
+  display: flex;
+ 
+}
+.footer .left{
+  background-color:#344151;
+  margin-top: 40px;
+  height: 600px;
+  padding: 50px;
+  margin-left: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.footer .left img{
+  width: 800px;
+  border-radius: 10px;
+
+}
+.footer .right{
+  margin-top: 40px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+  margin-right: 50px;
+  padding: 50px;
+  height: 600px;
+  background-color:#1F2937 ;
+  color: white;
+}
+.footer .right h1{
+  color: white;
+}
+.footer .right p{
+  color: white;
+}
+.footer .right button{
+  margin-top: 40px;
+  border-radius: 20px;
+  padding:10px 20px;
+  color: white;
+  text-decoration: none;
+  background-color:#1F2937 ;
+  height: 40px;
+
+}
